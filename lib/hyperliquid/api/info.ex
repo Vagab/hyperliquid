@@ -20,6 +20,10 @@ defmodule Hyperliquid.Api.Info do
     post(%{type: "spotMeta"})
   end
 
+  def spot_deploy_state(user) do
+    post(%{type: "spotDeployState", user: user})
+  end
+
   def spot_meta_and_asset_ctxs do
     post(%{type: "spotMetaAndAssetCtxs"})
   end
