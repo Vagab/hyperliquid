@@ -14,7 +14,7 @@ defmodule Hyperliquid.Application do
       {Registry, [keys: :unique, name: @workers]},
       {Registry, [keys: :unique, name: @users]},
       {Cachex, name: @cache},
-      {Hyperliquid.Cache.Updater, []},
+      # {Hyperliquid.Cache.Updater, []},
       Hyperliquid.Streamer.Supervisor,
       Hyperliquid.Manager
     ]
