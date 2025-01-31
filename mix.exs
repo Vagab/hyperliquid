@@ -41,7 +41,7 @@ defmodule Hyperliquid.MixProject do
       {:jason, "~> 1.4"},
       {:websockex, "~> 0.4.3"},
       {:cachex, "~> 3.6"},
-      {:eip712, "~> 0.2.0", git: "https://github.com/vagab/eip712.git", branch: "master"},
+      {:eip712, git: "https://github.com/vagab/eip712.git", branch: "master"},
       {:ethers, "~> 0.4.5"},
       {:msgpax, "~> 2.4"},
       {:ex_doc, "~> 0.31", only: :dev, runtime: false},
